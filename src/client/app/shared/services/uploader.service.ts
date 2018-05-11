@@ -12,7 +12,7 @@ import { MessageService } from './message.service';
 @Injectable()
 export class UploaderService {
 
-    private _apiURL = 'http://localhost:64757/PredictiveModels/read-file';
+    private _apiURL = 'http://localhost:64757/PredictiveModels/upload';
 
     constructor(
         private http: HttpClient,
